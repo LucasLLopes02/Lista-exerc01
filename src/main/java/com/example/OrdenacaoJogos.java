@@ -40,8 +40,8 @@ public class OrdenacaoJogos {
         do {
             System.out.println("Menu:");
             System.out.println("1. Ler o arquivo 'JogosDesordenados.csv'");
-            System.out.println("2. Ordenar jogos pela categoria (Insertion Sort) e salvar em 'JogosOrdenadosporCategoria.csv'");
-            System.out.println("3. Ordenar jogos por avaliação em cada categoria (Selection Sort) e salvar em 'JogosOrdenadosporAvaliacao.csv'");
+            System.out.println("2. Ordenar jogos pela categoria (Insertion Sort)");
+            System.out.println("3. Ordenar jogos por avaliação em cada categoria (Selection Sort)");
             System.out.println("4. Fechar o programa");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
